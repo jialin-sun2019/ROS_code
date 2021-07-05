@@ -1,0 +1,7 @@
+ <launch>
+    <!-- Image_Process Node-->
+    <!--<node pkg="image" type="image_process.py" name="image_process" output="screen"/>-->
+    <node pkg="image" type="image_process.py" name="image_process" output="screen"/>
+    <node pkg="image" type="ping_sub.py" name="ping_sub" output="screen"/>
+    <!-- Image_Process end Node-->
+  </launch>
